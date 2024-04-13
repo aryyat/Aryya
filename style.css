@@ -1,0 +1,77 @@
+*{
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    
+    text-align: center;
+}
+
+
+#header{
+    height:350px;
+    width: auto;
+    background-image: url(https://images.unsplash.com/photo-1447703693928-9cd89c8d3ac5?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    color: white;
+    background-size:cover   ;*/
+}
+h1{
+    text-align: center;
+    position: flex;
+    padding-top: 100px;
+    color: white;
+    margin: 1px solid black;
+    font-size: 53px;
+}
+p{
+    text-align: center;
+    font-size: 1.2rem;
+}
+button{
+    background-color: #007bff;
+    padding: 10px 20px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-top: 10px;
+}
+button:hover{
+    background-color: #0056b3;
+}
+
+.features{
+    display: flex;
+    justify-content: center;
+    padding: 20pxs;
+    background-color: #f4f8fb;
+    height: auto;
+    height: 300px;
+    border-top: 10px;
+    width: auto;
+   
+}
+.feature{
+    margin: 10px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    height: 200px;
+    cursor: pointer;
+    /*background-image: url(https://media.istockphoto.com/id/1445144500/photo/smoke-on-black-background.jpg?s=612x612&w=0&k=20&c=qzr2Wdu9WpiB04suejOmllLIjC9PdM18arzYTV7joeY=);
+    background-size: cover;
+    color: white;*/
+    
+}
+.feature:hover{
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+
+}
+footer{
+    color: white;
+    background-color: #333;
+    padding: 10px 0;
+}
